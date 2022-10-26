@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BasketBall</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+    <div class="container1">
+        <div id="h">
+            <h3 id="H">HOME</h3>
+            <div class="heading" id="home">0</div>
+            <br>
+            <button class="score" onclick="oneh()">+1</button>
+            <button class="score" onclick="twoh()">+2</button>
+            <button class="score" onclick="threeh()">+3</button>
+        </div>
+        <div id="g">
+            <h3 id="G">GUEST</h3>
+            <div class="heading" id="guest">0</div>
+            <br>
+            <button class="score" onclick="oneg()">+1</button>
+            <button class="score" onclick="twog()">+2</button>
+            <button class="score" onclick="threeg()">+3</button>
+        </div>
+    </div>
+    <div class="container2">
+        <button id="reset" onclick="reset()">Reset Score</button>
+    </div>    
+        
+</body>
+<script src="index.js"></script>
+</html>
